@@ -50,7 +50,6 @@ flexDirection: 'row",
 }`],
 
             functions:[()=>{}],            childrenItems:[
-        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -73,19 +72,6 @@ height: '500px',
 
       args,
     }}/>],
-
-            args,
-          }}/>
-        , 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
-
-            styles:[`{
-backgroundColor: "transparent",
-}`],
-
-            functions:[()=>{}],            childrenItems:[() =><></>],
 
             args,
           }}/>
