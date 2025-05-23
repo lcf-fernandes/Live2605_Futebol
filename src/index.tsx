@@ -36,20 +36,57 @@ backgroundColor: "#FFF",
 alignItems: "center",
 }`],
 
-          screenElements:[() => {
-                  const textStyle = {
-                    fontSize: 20,
-                    color: '#fff2',
-                    textAlign:'center',
-                    maxWidth: 200,
-                    // maxWidth: '200px'<= #ATTENTION: Native ERROR! No string!
-                  };
+          screenElements:[
+        
 
-                  return (
-                    <RN.Text style={textStyle}>
-                      {'Adicione Elementos nessa tela!'}
-                    </RN.Text>);
-                }],
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "100%",
+backgroundColor: "#EEE",
+alignItems: "center",
+padding: "20px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `Componente de porcentagem e barra de favoritismo`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
           functions:[()=>{}],
 
