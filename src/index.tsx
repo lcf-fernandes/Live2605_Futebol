@@ -63,20 +63,7 @@ flexDirection: 'row",
               }
               ],
 
-            functions:[()=>{}],            childrenItems:[
-
-    (...args:any) => <Elements.ImageBox pass={{
-      elementsProperties:[{}],
-
-      styles:[{
-width: "500px",
-height: '500px',
-}],
-
-      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2Fpsg.png?alt=media&token=26567e09-785d-403c-b747-abca5dcc7455`],
-
-      args,
-    }}/>],
+            functions:[()=>{}],            childrenItems:[() =><></>],
 
             args,
           }}/>
