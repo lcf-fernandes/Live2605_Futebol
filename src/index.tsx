@@ -44,6 +44,7 @@ alignItems: "center",
 
             styles:[`{
 width: "100%",
+flexDirection: "row",
 }`],
 
             functions:[()=>{}],            childrenItems:[() =><></>],
