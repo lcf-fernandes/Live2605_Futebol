@@ -46,24 +46,46 @@ alignItems: "center",
 width: "100%",
 alignItems: "center",
 padding: "20px",
+flexDirection: 'row",
 }`],
 
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
+            functions:[()=>{}],            childrenItems:[
+        
 
-          arrStyles: [
-            { color: 'black', fontSize: 12, }
-          ],
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
 
-          children: [
-            `Componente de porcentagem e barra de favoritismo`
-          ],
+            styles:[`{}`],
 
-          args,
+            functions:[()=>{}],            childrenItems:[
 
-        }}/>],
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[{
+width: "500px",
+height: '500px',
+}],
+
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2Fpsg.png?alt=media&token=26567e09-785d-403c-b747-abca5dcc7455`],
+
+      args,
+    }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
