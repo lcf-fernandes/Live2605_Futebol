@@ -44,7 +44,6 @@ alignItems: "center",
 
             styles:[`{
 width: "100%",
-backgroundColor: "#EEE",
 alignItems: "center",
 padding: "20px",
 }`],
@@ -109,7 +108,7 @@ Times e Placar`
 position: "absolute",
 width: "100%",
 height: "100%",
-zIndex: "1px",
+zIndex: "-1px",
 }],
 
       URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FUEFA%20fundo.png?alt=media&token=10be4eca-ba49-47bd-8907-99728cf70b59`],
